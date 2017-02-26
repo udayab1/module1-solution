@@ -22,7 +22,7 @@ angular.module('LunchCheck', [])
         message ="Enjoy!";
       }
     }else{
-        alert("Please enter data first");
+        message="Please enter data first";
       }
     return message;
   }
